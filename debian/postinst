@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+if [ locale-gen ]; then
+	        /usr/sbin/locale-gen
+fi

@@ -1,0 +1,14 @@
+Source: blankon-locale-gen
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
+Standards-Version: 3.8.3
+
+Package: blankon-locale-gen
+Priority: important
+Architecture: all
+Depends: locales
+Description: locale-gen of the BlankOn locales
+ The BlankOn locales start by locale-gen
+
+
