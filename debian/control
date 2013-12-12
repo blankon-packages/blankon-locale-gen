@@ -2,7 +2,8 @@ Source: blankon-locale-gen
 Section: misc
 Priority: optional
 Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
-Standards-Version: 3.8.3
+Build-Depends: debhelper, cdbs
+Standards-Version: 3.9.2
 
 Package: blankon-locale-gen
 Priority: important
