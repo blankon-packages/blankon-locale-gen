@@ -1,3 +1,10 @@
+blankon-locale-gen (2014.01.01) suroboyo; urgency=medium
+
+  * Added blankon-locale.gen
+  * debian/postins:postrm make divert locale.gen
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Thu, 02 Jan 2014 16:19:16 +0700
+
 blankon-locale-gen (2013.12.12) suroboyo; urgency=low
 
   * Initiat release

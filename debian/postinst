@@ -1,6 +1,13 @@
 #!/bin/sh
 
-
-if [ locale-gen ]; then
-	        /usr/sbin/locale-gen
-fi
+case "$1" in
+  configure)
+  if [ -f /etc/locale.gen ]; then
+    dpkg-divert --add --local --divert /etc/locale.gen.divert --rename /etc/locale.gen
+    cp -a /etc/blankon-locale.gen /etc/locale.gen
+  fi
+  
+  if [ locale-gen ]; then
+    /usr/sbin/locale-gen
+  fi
+esac
