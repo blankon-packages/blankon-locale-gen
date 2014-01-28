@@ -1,3 +1,9 @@
+blankon-locale-gen (2014.01.28) suroboyo; urgency=low
+
+  * blankon-locale.gen drop id_ID ISO-8859-1 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 28 Jan 2014 20:32:00 +0700
+
 blankon-locale-gen (2014.01.01) suroboyo; urgency=medium
 
   * Added blankon-locale.gen
