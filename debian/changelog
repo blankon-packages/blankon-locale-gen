@@ -1,3 +1,9 @@
+blankon-locale-gen (2014.03.03) tambora; urgency=low
+
+  * Upload to suroboyo
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 03 Mar 2014 18:55:29 +0700
+
 blankon-locale-gen (2014.01.28) suroboyo; urgency=low
 
   * blankon-locale.gen drop id_ID ISO-8859-1 
